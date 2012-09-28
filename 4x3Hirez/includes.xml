@@ -264,10 +264,10 @@
 	</include>
 	<include name="ScrollArrowsCommons">
 		<control type="scrollbar" id="60">
-			<posx>25r</posx>
-			<posy>120</posy>
+			<posx>30r</posx>
+			<posy>125</posy>
 			<width>17</width>
-			<height>720</height>
+			<height>710</height>
 			<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 			<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 			<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -277,9 +277,8 @@
 			<onright>60</onright>
 			<ondown>60</ondown>
 			<onup>60</onup>
-			<showonepage>true</showonepage>
+			<showonepage>false</showonepage>
 			<orientation>vertical</orientation>
-			<visible>Container.Scrolling</visible>
 			<animation effect="fade" time="150">Visible</animation>
 			<animation effect="fade" time="150">Hidden</animation>
 		</control>
