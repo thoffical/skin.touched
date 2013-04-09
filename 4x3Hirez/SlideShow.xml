@@ -10,7 +10,7 @@
 			<height>ScreenHeight</height>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onclick>Skin.SetBool(SlideShowShowOSD)</onclick>
+			<onclick>Skin.ToggleSetting(SlideShowShowOSD)</onclick>
 		</control>
 		<control type="group">
 			<visible>Skin.HasSetting(SlideShowShowOSD) + !Window.IsVisible(PictureInfo)</visible>
