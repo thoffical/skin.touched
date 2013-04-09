@@ -173,6 +173,34 @@
 					<onclick>right</onclick>
 				</control>
 			</control>
+			<control type="group">
+				<posx>595</posx>
+				<posy>90r</posy>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>90</width>
+					<height>90</height>
+					<colordiffuse>EEFFFFFF</colordiffuse>
+					<texture border="3">PlayerControls-Background.png</texture>
+				</control>
+				<control type="togglebutton">
+					<description>PlayPause</description>
+					<posx>15</posx>
+					<posy>10</posy>
+					<width>60</width>
+					<height>70</height>
+					<hitrect x="0" y="0" w="90" h="90" />
+					<label>-</label>
+					<font>-</font>
+					<texturefocus>PlayerControls-PlayNF.png</texturefocus>
+					<texturenofocus>PlayerControls-PlayNF.png</texturenofocus>
+					<alttexturefocus>PlayerControls-PauseNF.png</alttexturefocus>
+					<alttexturenofocus>PlayerControls-PauseNF.png</alttexturenofocus>
+					<usealttexture>SlideShow.IsActive + !SlideShow.IsPaused</usealttexture>
+					<onclick>pause</onclick>
+				</control>
+			</control>
 		</control>
 		<!-- media infos -->
 		<control type="group">
