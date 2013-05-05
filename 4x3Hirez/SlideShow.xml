@@ -10,7 +10,19 @@
 			<height>ScreenHeight</height>
 			<texturenofocus>-</texturenofocus>
 			<texturefocus>-</texturefocus>
-			<onclick>Skin.SetBool(SlideShowShowOSD)</onclick>
+			<onclick>Skin.ToggleSetting(SlideShowShowOSD)</onclick>
+		</control>
+		<control type="button">
+			<visible>SlideShow.IsVideo + [!SlideShow.IsActive | SlideShow.IsPaused]</visible>
+			<description>Video Play Button</description>
+			<posx>540</posx>
+			<posy>380</posy>
+			<width>200</width>
+			<height>200</height>
+			<font>-</font>
+			<onclick>play</onclick>
+			<texturefocus>arrow-big-right.png</texturefocus>
+			<texturenofocus>arrow-big-right.png</texturenofocus>
 		</control>
 		<control type="group">
 			<visible>Skin.HasSetting(SlideShowShowOSD) + !Window.IsVisible(PictureInfo)</visible>
@@ -171,6 +183,34 @@
 					<texturefocus>icon_arrowkey.png</texturefocus>
 					<texturenofocus>icon_arrowkey.png</texturenofocus>
 					<onclick>right</onclick>
+				</control>
+			</control>
+			<control type="group">
+				<posx>595</posx>
+				<posy>90r</posy>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>90</width>
+					<height>90</height>
+					<colordiffuse>EEFFFFFF</colordiffuse>
+					<texture border="3">PlayerControls-Background.png</texture>
+				</control>
+				<control type="togglebutton">
+					<description>PlayPause</description>
+					<posx>15</posx>
+					<posy>10</posy>
+					<width>60</width>
+					<height>70</height>
+					<hitrect x="0" y="0" w="90" h="90" />
+					<label>-</label>
+					<font>-</font>
+					<texturefocus>PlayerControls-PlayNF.png</texturefocus>
+					<texturenofocus>PlayerControls-PlayNF.png</texturenofocus>
+					<alttexturefocus>PlayerControls-PauseNF.png</alttexturefocus>
+					<alttexturenofocus>PlayerControls-PauseNF.png</alttexturenofocus>
+					<usealttexture>SlideShow.IsActive + !SlideShow.IsPaused</usealttexture>
+					<onclick>pause</onclick>
 				</control>
 			</control>
 		</control>
