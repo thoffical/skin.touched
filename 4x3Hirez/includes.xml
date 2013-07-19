@@ -319,6 +319,18 @@
 			<onclick>Skin.ToggleSetting(MediaSubMenuVisible)</onclick>
 		</control>
 	</include>
+	<include name="SettingsButtonCommons">
+		<control type="button">
+			<description>Settings Options Button</description>
+			<posx>64r</posx>
+			<posy>25</posy>
+			<width>64</width>
+			<height>64</height>
+			<texturenofocus>icon_system.png</texturenofocus>
+			<texturefocus>icon_system.png</texturefocus>
+			<onclick>Skin.ToggleSetting(SettingsSubMenuVisible)</onclick>
+		</control>
+	</include>
 	<include name="DialogCloseButtonCommons">
 		<control type="image">
 			<posx>0</posx>
