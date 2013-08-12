@@ -45,7 +45,7 @@
 					<posx>-30</posx>
 					<posy>-30</posy>
 					<width>380</width>
-					<height>500</height>
+					<height>560</height>
 					<texture border="30">ShadowBorder.png</texture>
 				</control>
 				<control type="button">
@@ -53,7 +53,7 @@
 					<posx>0</posx>
 					<posy>0</posy>
 					<width>320</width>
-					<height>440</height>
+					<height>500</height>
 					<texturefocus border="5">SubBack.png</texturefocus>
 					<texturenofocus border="5">SubBack.png</texturenofocus>
 					<onclick>-</onclick>
@@ -63,7 +63,7 @@
 					<posx>10</posx>
 					<posy>10</posy>
 					<width>300</width>
-					<height>420</height>
+					<height>480</height>
 					<texture border="5">SubBack2.png</texture>
 				</control>
 				<control type="image">
@@ -78,7 +78,7 @@
 					<posx>11</posx>
 					<posy>10</posy>
 					<width>298</width>
-					<height>420</height>
+					<height>480</height>
 					<onleft>9000</onleft>
 					<onright>50</onright>
 					<onup>9000</onup>
@@ -121,6 +121,15 @@
 						<textwidth>170</textwidth>
 						<include>ButtonCommonValues2</include>
 						<label>20411</label>
+					</control>
+					<control type="togglebutton" id="20">
+						<description>Update Library</description>
+						<include>ButtonCommonValues2</include>
+						<alttexturefocus>button-focus2.png</alttexturefocus>
+						<alttexturenofocus>button-nofocus.png</alttexturenofocus>
+						<label>653</label>
+						<altlabel>13353</altlabel>
+						<usealttexture>library.isscanningvideo</usealttexture> 
 					</control>
 					<control type="radiobutton" id="16">
 						<description>PartyMode</description>
