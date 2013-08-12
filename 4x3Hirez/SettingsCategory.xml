@@ -26,6 +26,7 @@
 		</control>
 		<control type="group">
 			<include>Window_OpenClose_Animation_Zoom</include>
+			<include>ScrollArrowsCommonsSettings</include>
 			<posx>50</posx>
 			<posy>140</posy>
 			<control type="grouplist" id="3">
@@ -45,7 +46,7 @@
 				<posx>300</posx>
 				<posy>0</posy>
 				<width>880</width>
-				<height>720</height>
+				<height>605</height>
 				<itemgap>0</itemgap>
 				<pagecontrol>60</pagecontrol>
 				<onleft>3</onleft>
