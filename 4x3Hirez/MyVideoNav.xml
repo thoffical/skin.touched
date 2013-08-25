@@ -45,7 +45,7 @@
 					<posx>-30</posx>
 					<posy>-30</posy>
 					<width>380</width>
-					<height>560</height>
+					<height>440</height>
 					<texture border="30">ShadowBorder.png</texture>
 				</control>
 				<control type="button">
@@ -53,7 +53,7 @@
 					<posx>0</posx>
 					<posy>0</posy>
 					<width>320</width>
-					<height>500</height>
+					<height>380</height>
 					<texturefocus border="5">SubBack.png</texturefocus>
 					<texturenofocus border="5">SubBack.png</texturenofocus>
 					<onclick>-</onclick>
@@ -63,7 +63,7 @@
 					<posx>10</posx>
 					<posy>10</posy>
 					<width>300</width>
-					<height>480</height>
+					<height>360</height>
 					<texture border="5">SubBack2.png</texture>
 				</control>
 				<control type="image">
@@ -78,7 +78,7 @@
 					<posx>11</posx>
 					<posy>10</posy>
 					<width>298</width>
-					<height>480</height>
+					<height>360</height>
 					<onleft>9000</onleft>
 					<onright>50</onright>
 					<onup>9000</onup>
@@ -109,18 +109,6 @@
 						<include>ButtonCommonValues2</include>
 						<label>137</label>
 						<visible>false</visible>
-					</control>
-					<control type="radiobutton" id="7">
-						<description>Stack Toggle</description>
-						<textwidth>170</textwidth>
-						<include>ButtonCommonValues2</include>
-						<label>346</label>
-					</control>
-					<control type="radiobutton" id="17">
-						<description>Flatten</description>
-						<textwidth>170</textwidth>
-						<include>ButtonCommonValues2</include>
-						<label>20411</label>
 					</control>
 					<control type="togglebutton" id="20">
 						<description>Update Library</description>
