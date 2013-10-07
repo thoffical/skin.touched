@@ -97,7 +97,7 @@
 							<height>40</height>
 							<font>font13</font>
 							<textcolor>black</textcolor>
-							<label>$LOCALIZE[SCRIPT655]</label>
+							<label>$ADDON[script.xbmc.subtitles 655]</label>
 							<aligny>center</aligny>
 						</control>
 					</control>
@@ -352,7 +352,7 @@
 					<posy>5</posy>
 					<width>300</width>
 					<height>25</height>
-					<label>$LOCALIZE[SCRIPT760]</label>
+					<label>$ADDON[script.xbmc.subtitles 760]</label>
 					<font>font12_title</font>
 					<align>center</align>
 					<aligny>top</aligny>
