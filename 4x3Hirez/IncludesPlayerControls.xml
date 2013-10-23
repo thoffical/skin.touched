@@ -899,7 +899,7 @@
 					<height>380</height>
 					<texturefocus border="5">SubBack.png</texturefocus>
 					<texturenofocus border="5">SubBack.png</texturenofocus>
-					<onclick>-</onclick>
+					<onclick>noop</onclick>
 				</control>
 				<control type="image">
 					<description>Panel Forground image</description>
@@ -969,7 +969,7 @@
 					<control type="togglebutton">
 						<include>ButtonCommonValues2</include>
 						<label>31018</label>
-						<onclick>-</onclick>
+						<onclick>noop</onclick>
 						<onclick>Close</onclick>
 						<onclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
 						<altclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</altclick>

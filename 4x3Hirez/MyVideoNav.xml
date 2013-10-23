@@ -56,7 +56,7 @@
 					<height>380</height>
 					<texturefocus border="5">SubBack.png</texturefocus>
 					<texturenofocus border="5">SubBack.png</texturenofocus>
-					<onclick>-</onclick>
+					<onclick>noop</onclick>
 				</control>
 				<control type="image">
 					<description>Panel Forground image</description>
