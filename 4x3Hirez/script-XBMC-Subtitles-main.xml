@@ -152,7 +152,6 @@
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
 							<align>center</align>
-							<aligny>center</aligny>
 							<label>[B]SYNC[/B]</label>
 							<visible>ListItem.property(sync)</visible>
 						</control>
@@ -235,7 +234,6 @@
 							<aligny>center</aligny>
 							<textcolor>white</textcolor>
 							<align>center</align>
-							<aligny>center</aligny>
 							<label>[B]SYNC[/B]</label>
 							<visible>ListItem.property(sync)</visible>
 						</control>
