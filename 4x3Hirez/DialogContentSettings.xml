@@ -155,7 +155,7 @@
 						<height>40</height>
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
-					<control type="label" width="460">
+					<control type="label">
 						<posx>60</posx>
 						<posy>0</posy>
 						<width>410</width>
@@ -183,7 +183,7 @@
 						<height>40</height>
 						<texture>$INFO[Listitem.Icon]</texture>
 					</control>
-					<control type="label" width="460">
+					<control type="label">
 						<posx>60</posx>
 						<posy>0</posy>
 						<width>410</width>

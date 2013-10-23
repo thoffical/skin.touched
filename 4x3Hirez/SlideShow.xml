@@ -109,8 +109,8 @@
 					<texturefocus border="5">floor_buttonFO.png</texturefocus>
 					<label>31008</label>
 					<onclick>back</onclick>
-					<textureradiofocus flipx="true" flipy="true">GoFullscreen2.png</textureradiofocus>
-					<textureradionofocus flipx="true" flipy="true">GoFullscreen2.png</textureradionofocus>
+					<textureradioon flipx="true" flipy="true">GoFullscreen2.png</textureradioon>
+					<textureradiooff flipx="true" flipy="true">GoFullscreen2.png</textureradiooff>
 				</control>
 			</control>
 			<control type="group">
