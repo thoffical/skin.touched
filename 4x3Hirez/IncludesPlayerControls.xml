@@ -815,7 +815,6 @@
 				<visible>!VideoPlayer.HasSubtitles</visible>
 			</control>
 			<control type="togglebutton">
-				<description>Download with Subtitles script</description>
 				<posx>10</posx>
 				<posy>38</posy>
 				<width>60</width>
@@ -843,7 +842,7 @@
 				<height>2</height>
 				<texture>header-divide.png</texture>
 			</control>
-			<control type="togglebutton">
+			<control type="button">
 				<posx>10</posx>
 				<posy>100</posy>
 				<width>65</width>
@@ -853,18 +852,12 @@
 				<font>-</font>
 				<texturefocus flipy="true">icon_shift.png</texturefocus>
 				<texturenofocus flipy="true">icon_shift.png</texturenofocus>
-				<alttexturefocus flipy="true">icon_shift.png</alttexturefocus>
-				<alttexturenofocus flipy="true">icon_shift.png</alttexturenofocus>
 				<onleft>605</onleft>
 				<onright>702</onright>
 				<onup>1000</onup>
 				<ondown>1000</ondown>
 				<onclick>Close</onclick>
-				<onclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-				<altclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</altclick>
-				<altclick>Close</altclick>
-				<altclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</altclick>
-				<usealttexture>IsEmpty(Skin.String(SubtitleScript_Path))</usealttexture>
+				<onclick>ActivateWindow(SubtitleSearch)</onclick>
 			</control>
 		</control>
 
@@ -965,21 +958,6 @@
 						<onclick>Dialog.Close(VideoOSD,true)</onclick>
 						<onclick>Skin.Reset(PlayerControlsSubMenuVisible)</onclick>
 						<onclick>XBMC.ActivateWindow(125)</onclick>
-						<visible>Window.IsVisible(FullScreenVideo)</visible>
-					</control>
-					<control type="togglebutton">
-						<include>ButtonCommonValues2</include>
-						<label>31018</label>
-						<onclick>noop</onclick>
-						<onclick>Close</onclick>
-						<onclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</onclick>
-						<altclick>Skin.SetAddon(SubtitleScript_Path,xbmc.python.subtitles)</altclick>
-						<altclick>Close</altclick>
-						<altclick>XBMC.RunScript($INFO[Skin.String(SubtitleScript_Path)])</altclick>
-						<alttexturefocus border="5">button-focus2.png</alttexturefocus>
-						<alttexturenofocus>-</alttexturenofocus>
-						<usealttexture>IsEmpty(Skin.String(SubtitleScript_Path))</usealttexture>
-						<visible>false</visible>
 						<visible>Window.IsVisible(FullScreenVideo)</visible>
 					</control>
 					<control type="button">
