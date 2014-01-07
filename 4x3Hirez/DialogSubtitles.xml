@@ -361,11 +361,11 @@
 					<posx>11</posx>
 					<posy>40</posy>
 					<width>298</width>
-					<height>390</height>
+					<height>330</height>
 					<onleft>150</onleft>
 					<onright>150</onright>
-					<onup>150</onup>
-					<ondown>150</ondown>
+					<onup>160</onup>
+					<ondown>160</ondown>
 					<viewtype label="535">list</viewtype>
 					<scrolltime>200</scrolltime>
 					<itemlayout width="298" height="60">
@@ -410,6 +410,22 @@
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>
+				</control>
+				<control type="button" id="160">
+					<posx>11</posx>
+					<posy>370</posy>
+					<width>298</width>
+					<height>60</height>
+					<label>$LOCALIZE[24120]</label>
+					<font>font13</font>
+					<aligny>center</aligny>
+					<textcolor>black</textcolor>
+					<selectedcolor>selected</selectedcolor>
+					<texturenofocus>button-nofocus.png</texturenofocus>
+					<texturefocus>button-focus2.png</texturefocus>
+					<align>center</align>
+					<onup>150</onup>
+					<ondown>150</ondown>
 				</control>
 			</control>
 		</control>
