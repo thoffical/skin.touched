@@ -5,6 +5,7 @@ IF Exist ..\..\project\Win32BuildSetup\BUILD_WIN32\Xbmc\addons\skin.touched rmdi
 md ..\..\project\Win32BuildSetup\BUILD_WIN32\Xbmc\addons\skin.touched\media\
 
 Echo build.bat>>exclude.txt
+Echo .git>>exclude.txt
 Echo \skin.touched\media\>>exclude.txt
 Echo exclude.txt>>exclude.txt
 
